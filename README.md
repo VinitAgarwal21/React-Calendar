@@ -1,4 +1,4 @@
-# React Wall Calendar
+# React Calendar
 
 A modern, interactive calendar component built with React, inspired by the aesthetics of a traditional wall calendar. The project focuses on clean UI design combined with practical features such as date range selection, labeling, and note-taking.
 
@@ -74,6 +74,8 @@ Navigate between months using arrow controls
 Toggle between light and dark modes
 
 ### Video Demonstration and Screenshots
+
+https://github.com/user-attachments/assets/f4dd7222-6078-46c5-92e8-f0b7f8891fb9
 
 ### Live Demo
 react-calendar-jade-eight.vercel.app
