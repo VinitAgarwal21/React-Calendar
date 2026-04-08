@@ -63,6 +63,16 @@ npm install
 npm start
 
 ### The app will be available at:
-http://localhost:3000
+http://localhost:5173
+
+### Usage
+Click on any date to start selecting a range
+Click another date to complete the range
+Add labels to ranges for better organization
+Use the notes section to store monthly reminders
+Navigate between months using arrow controls
+Toggle between light and dark modes
+
+### Video Demonstration and Screenshots
 
 
