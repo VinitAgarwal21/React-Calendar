@@ -75,4 +75,5 @@ Toggle between light and dark modes
 
 ### Video Demonstration and Screenshots
 
-
+### Live Demo
+react-calendar-jade-eight.vercel.app
