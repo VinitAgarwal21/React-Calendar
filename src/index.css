@@ -1,0 +1,98 @@
+:root {
+  --accent: #FF6900;
+  --accent-light: #FF8533;
+  --accent-dark: #CC5400;
+  --paper-shadow: rgba(0, 0, 0, 0.1);
+  --today-bg: var(--accent);
+  --spiral: #94A3B8;
+
+  --bg: #F8FAFC;
+  --bg-accent-1: rgba(255, 105, 0, 0.05);
+  --bg-accent-2: rgba(30, 41, 59, 0.03);
+  --paper: #FFFFFF;
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #94A3B8;
+  --border: #E2E8F0;
+  --weekend: #64748B;
+  --range-bg: rgba(255, 105, 0, 0.08);
+  --range-edge: var(--accent);
+  --note-line: #F1F5F9;
+  --notes-panel-bg: #f8fafc;
+  --manager-bg: #FFFFFF;
+
+  --ff-heading: 'Outfit', sans-serif;
+  --ff-body: 'Inter', sans-serif;
+
+  --calendar-width: 85vw;
+  --max-calendar-width: 1400px;
+  --calendar-radius: 20px;
+}
+
+[data-theme='dark'] {
+  --bg: #000000;
+  --bg-accent-1: rgba(255, 105, 0, 0.12);
+  --bg-accent-2: rgba(30, 41, 59, 0.15);
+  --paper: #111111;
+  --text-primary: #FFFFFF;
+  --text-secondary: #A1A1AA;
+  --text-muted: #52525B;
+  --border: #222222;
+  --note-line: #3f3f46;
+  --notes-panel-bg: #1a1a1a;
+  --paper-shadow: rgba(0, 0, 0, 0.6);
+  --manager-bg: #111111;
+  --spiral: #334155;
+  --weekend: #A1A1AA;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--ff-body);
+  background: var(--bg);
+  color: var(--text-primary);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  transition: background 0.4s ease, color 0.4s ease;
+  background-image:
+    radial-gradient(circle at 20% 50%, var(--bg-accent-1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, var(--bg-accent-2) 0%, transparent 50%);
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--text-muted);
+  border-radius: 4px;
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
+}
