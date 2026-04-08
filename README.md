@@ -55,9 +55,9 @@ The goal was to combine familiarity (physical calendar metaphor) with modern fro
 
 ### Installation
 
-git clone https://github.com/VinitAgarwal21/React-Calendar.git
-cd React-Calendar
-npm install
+- git clone https://github.com/VinitAgarwal21/React-Calendar.git
+- cd React-Calendar
+- npm install
 
 ### Run Locally
 npm start
@@ -66,12 +66,12 @@ npm start
 http://localhost:5173
 
 ### Usage
-Click on any date to start selecting a range
-Click another date to complete the range
-Add labels to ranges for better organization
-Use the notes section to store monthly reminders
-Navigate between months using arrow controls
-Toggle between light and dark modes
+- Click on any date to start selecting a range
+- Click another date to complete the range
+- Add labels to ranges for better organization
+- Use the notes section to store monthly reminders
+- Navigate between months using arrow controls
+- Toggle between light and dark modes
 
 ### Video Demonstration and Screenshots
 
